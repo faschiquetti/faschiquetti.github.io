@@ -1,7 +1,6 @@
 
 body {
   overflow: auto;
-  background-color: #000
 }
 
 #bignav {
@@ -13,6 +12,23 @@ body {
 .color-change-2x {
 	-webkit-animation: color-change-2x 10s linear infinite alternate both;
 	        animation: color-change-2x 10s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
 }
 
 .brand {
